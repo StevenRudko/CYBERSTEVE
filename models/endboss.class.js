@@ -23,27 +23,24 @@ class Endboss extends MovableObject {
   engineSoundInterval = null;
 
   /** @type {HTMLAudioElement} */
-  engineSound = new Audio("../CYBERSTEVE/audio/engine-sound.mp3");
+  engineSound = new Audio("./audio/engine-sound.mp3");
 
   IMAGES_WALKING = [
-    "../CYBERSTEVE/img/Enemies/1/Walk/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/2.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/3.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/4.png",
+    "./img/Enemies/1/Walk/1.png",
+    "./img/Enemies/1/Walk/2.png",
+    "./img/Enemies/1/Walk/3.png",
+    "./img/Enemies/1/Walk/4.png",
   ];
 
-  IMAGES_HURT = [
-    "../CYBERSTEVE/img/Enemies/1/Hurt/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Hurt/2.png",
-  ];
+  IMAGES_HURT = ["./img/Enemies/1/Hurt/1.png", "./img/Enemies/1/Hurt/2.png"];
 
   IMAGES_DEAD = [
-    "../CYBERSTEVE/img/Enemies/1/Death/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/2.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/3.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/4.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/5.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/6.png",
+    "./img/Enemies/1/Death/1.png",
+    "./img/Enemies/1/Death/2.png",
+    "./img/Enemies/1/Death/3.png",
+    "./img/Enemies/1/Death/4.png",
+    "./img/Enemies/1/Death/5.png",
+    "./img/Enemies/1/Death/6.png",
   ];
 
   /**
@@ -192,7 +189,7 @@ class Endboss extends MovableObject {
    * Plays death sound effect
    */
   playDeathSound() {
-    const deathSound = new Audio("../CYBERSTEVE/audio/boss-dead.wav");
+    const deathSound = new Audio("./audio/boss-dead.wav");
     deathSound.volume = 0.2;
     deathSound.muted = isMuted;
     deathSound.play();
@@ -350,7 +347,7 @@ class Endboss extends MovableObject {
    * Plays hit sound effect
    */
   playHitSound() {
-    const hitSound = new Audio("../CYBERSTEVE/audio/hitmarker.mp3");
+    const hitSound = new Audio("./audio/hitmarker.mp3");
     hitSound.volume = 0.4;
     hitSound.muted = isMuted;
     hitSound.play();

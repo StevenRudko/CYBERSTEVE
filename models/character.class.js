@@ -54,44 +54,44 @@ class Character extends MovableObject {
    * @type {string[]}
    */
   IMAGES_IDLE = [
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/1.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/2.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/3.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/4.png",
+    "./img/Charakters/1%20Biker/Biker_idle/1.png",
+    "./img/Charakters/1%20Biker/Biker_idle/2.png",
+    "./img/Charakters/1%20Biker/Biker_idle/3.png",
+    "./img/Charakters/1%20Biker/Biker_idle/4.png",
   ];
 
   IMAGES_WALKING = [
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/1.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/2.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/3.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/4.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/5.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/6.png",
+    "./img/Charakters/1%20Biker/Biker_run/1.png",
+    "./img/Charakters/1%20Biker/Biker_run/2.png",
+    "./img/Charakters/1%20Biker/Biker_run/3.png",
+    "./img/Charakters/1%20Biker/Biker_run/4.png",
+    "./img/Charakters/1%20Biker/Biker_run/5.png",
+    "./img/Charakters/1%20Biker/Biker_run/6.png",
   ];
 
   IMAGES_JUMPING = [
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/1.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/2.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/3.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/4.png",
+    "./img/Charakters/1%20Biker/Biker_jump/1.png",
+    "./img/Charakters/1%20Biker/Biker_jump/2.png",
+    "./img/Charakters/1%20Biker/Biker_jump/3.png",
+    "./img/Charakters/1%20Biker/Biker_jump/4.png",
   ];
 
   IMAGES_DEAD = [
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/1.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/2.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/3.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/4.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/5.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/6.png",
+    "./img/Charakters/1%20Biker/Biker_death/1.png",
+    "./img/Charakters/1%20Biker/Biker_death/2.png",
+    "./img/Charakters/1%20Biker/Biker_death/3.png",
+    "./img/Charakters/1%20Biker/Biker_death/4.png",
+    "./img/Charakters/1%20Biker/Biker_death/5.png",
+    "./img/Charakters/1%20Biker/Biker_death/6.png",
   ];
 
   IMAGES_HURT = [
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_hurt/1.png",
-    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_hurt/2.png",
+    "./img/Charakters/1%20Biker/Biker_hurt/1.png",
+    "./img/Charakters/1%20Biker/Biker_hurt/2.png",
   ];
 
   world;
-  walking_sound = new Audio("../CYBERSTEVE/audio/walking.wav");
+  walking_sound = new Audio("./audio/walking.wav");
 
   /**
    * Creates an instance of the Character class and loads images.
@@ -235,7 +235,7 @@ class Character extends MovableObject {
    * Plays the damage sound when the character gets hurt.
    */
   playDamageSound() {
-    const damageSound = new Audio("../CYBERSTEVE/audio/character-damage.mp3");
+    const damageSound = new Audio("./audio/character-damage.mp3");
     damageSound.volume = 0.3;
     damageSound.play();
   }
@@ -251,7 +251,7 @@ class Character extends MovableObject {
    * Initializes and plays the death sound effect
    */
   playDeathSound() {
-    const deathSound = new Audio("../CYBERSTEVE/audio/character-death.mp3");
+    const deathSound = new Audio("./audio/character-death.mp3");
     deathSound.volume = 0.3;
     deathSound.play();
   }
@@ -298,7 +298,7 @@ class Character extends MovableObject {
    * Plays the death sound for the character.
    */
   playDeathSound() {
-    const deathSound = new Audio("../CYBERSTEVE/audio/character-death.mp3");
+    const deathSound = new Audio("./audio/character-death.mp3");
     deathSound.volume = 0.3;
     deathSound.play();
   }
@@ -396,7 +396,7 @@ class Character extends MovableObject {
    * @param {Crystal} crystal - The crystal object being collected.
    */
   collectCrystal(crystal) {
-    const collectSound = new Audio("../CYBERSTEVE/audio/collect.mp3");
+    const collectSound = new Audio("./audio/collect.mp3");
     collectSound.volume = 0.2;
     collectSound.play();
 

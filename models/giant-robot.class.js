@@ -11,26 +11,23 @@ class Enemy1 extends MovableObject {
   hasPlayedHitSound = false;
 
   IMAGES_WALKING = [
-    "../CYBERSTEVE/img/Enemies/2/Walk/1.png",
-    "../CYBERSTEVE/img/Enemies/2/Walk/2.png",
-    "../CYBERSTEVE/img/Enemies/2/Walk/3.png",
-    "../CYBERSTEVE/img/Enemies/2/Walk/4.png",
-    "../CYBERSTEVE/img/Enemies/2/Walk/5.png",
-    "../CYBERSTEVE/img/Enemies/2/Walk/6.png",
+    "./img/Enemies/2/Walk/1.png",
+    "./img/Enemies/2/Walk/2.png",
+    "./img/Enemies/2/Walk/3.png",
+    "./img/Enemies/2/Walk/4.png",
+    "./img/Enemies/2/Walk/5.png",
+    "./img/Enemies/2/Walk/6.png",
   ];
 
-  IMAGES_HURT = [
-    "../CYBERSTEVE/img/Enemies/2/Hurt/1.png",
-    "../CYBERSTEVE/img/Enemies/2/Hurt/2.png",
-  ];
+  IMAGES_HURT = ["./img/Enemies/2/Hurt/1.png", "./img/Enemies/2/Hurt/2.png"];
 
   IMAGES_DEAD = [
-    "../CYBERSTEVE/img/Enemies/2/Death/1.png",
-    "../CYBERSTEVE/img/Enemies/2/Death/2.png",
-    "../CYBERSTEVE/img/Enemies/2/Death/3.png",
-    "../CYBERSTEVE/img/Enemies/2/Death/4.png",
-    "../CYBERSTEVE/img/Enemies/2/Death/5.png",
-    "../CYBERSTEVE/img/Enemies/2/Death/6.png",
+    "./img/Enemies/2/Death/1.png",
+    "./img/Enemies/2/Death/2.png",
+    "./img/Enemies/2/Death/3.png",
+    "./img/Enemies/2/Death/4.png",
+    "./img/Enemies/2/Death/5.png",
+    "./img/Enemies/2/Death/6.png",
   ];
 
   currentDeathFrame = 0;
@@ -41,7 +38,7 @@ class Enemy1 extends MovableObject {
    * Initializes the enemy's image, position, and movement speed.
    */
   constructor() {
-    super().loadImage("../CYBERSTEVE/img/Enemies/2/Idle/1.png");
+    super().loadImage("./img/Enemies/2/Idle/1.png");
     this.loadImages(this.IMAGES_WALKING);
     this.loadImages(this.IMAGES_HURT);
     this.loadImages(this.IMAGES_DEAD);
@@ -82,7 +79,7 @@ class Enemy1 extends MovableObject {
       this.img = this.imageCache[path];
       this.currentDeathFrame++;
       if (this.currentDeathFrame === 1) {
-        const deathSound = new Audio("../CYBERSTEVE/audio/enemy-dead.mp3");
+        const deathSound = new Audio("./audio/enemy-dead.mp3");
         deathSound.volume = 0.2;
         deathSound.play();
       }
@@ -96,7 +93,7 @@ class Enemy1 extends MovableObject {
    * Plays hit marker sound effect
    */
   playHitSound() {
-    const hitSound = new Audio("../CYBERSTEVE/audio/hitmarker.mp3");
+    const hitSound = new Audio("./audio/hitmarker.mp3");
     hitSound.volume = 0.4;
     hitSound.muted = isMuted;
     hitSound.play();
@@ -116,7 +113,7 @@ class Enemy1 extends MovableObject {
    * Plays enemy death sound
    */
   playDeathSound() {
-    const deathSound = new Audio("../CYBERSTEVE/audio/enemy-dead.mp3");
+    const deathSound = new Audio("./audio/enemy-dead.mp3");
     deathSound.volume = 0.2;
     deathSound.play();
   }

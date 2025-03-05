@@ -5,7 +5,7 @@ class Weapon extends MovableObject {
   animationDirection = 1;
 
   constructor() {
-    super().loadImage("../CYBERSTEVE/img/Weapons/2 Guns/1_1.png");
+    super().loadImage("./img/Weapons/2 Guns/1_1.png");
     this.animate();
   }
 

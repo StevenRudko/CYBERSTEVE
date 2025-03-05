@@ -1,8 +1,8 @@
 let canvas;
 let world;
 let keyboard = new Keyboard();
-let backgroundMusic = new Audio("../CYBERSTEVE/audio/game-music.mp3");
-let menuMusic = new Audio("../CYBERSTEVE/audio/menu-music.mp3");
+let backgroundMusic = new Audio("./audio/game-music.mp3");
+let menuMusic = new Audio("./audio/menu-music.mp3");
 let gameStarted = false;
 let isGamePaused = false;
 let isMuted = localStorage.getItem("isMuted") === "true";
@@ -17,7 +17,7 @@ menuMusic.preload = "auto";
 let audioContext;
 gameIsMuted = localStorage.getItem("gameIsMuted") === "true";
 menuIsMuted = localStorage.getItem("menuIsMuted") === "true";
-const btnClickSound = new Audio("../CYBERSTEVE/audio/btn-click.mp3");
+const btnClickSound = new Audio("./audio/btn-click.mp3");
 btnClickSound.volume = 0.2;
 
 /**

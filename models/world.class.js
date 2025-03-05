@@ -21,14 +21,14 @@ class World {
   hitmarkers = [];
 
   shooting_sounds = [
-    new Audio("../CYBERSTEVE/audio/shoot.mp3"),
-    new Audio("../CYBERSTEVE/audio/shoot.mp3"),
-    new Audio("../CYBERSTEVE/audio/shoot.mp3"),
+    new Audio("./audio/shoot.mp3"),
+    new Audio("./audio/shoot.mp3"),
+    new Audio("./audio/shoot.mp3"),
   ];
   hitSounds = [
-    new Audio("../CYBERSTEVE/audio/hitmarker.mp3"),
-    new Audio("../CYBERSTEVE/audio/hitmarker.mp3"),
-    new Audio("../CYBERSTEVE/audio/hitmarker.mp3"),
+    new Audio("./audio/hitmarker.mp3"),
+    new Audio("./audio/hitmarker.mp3"),
+    new Audio("./audio/hitmarker.mp3"),
   ];
   currentSoundIndex = 0;
   currentHitSoundIndex = 0;
@@ -43,7 +43,7 @@ class World {
     this.canvas = canvas;
     this.keyboard = keyboard;
     this.ctx = canvas.getContext("2d");
-    this.hitmarkerImage.src = "../CYBERSTEVE/img/hitmarker.png";
+    this.hitmarkerImage.src = "./img/hitmarker.png";
     this.setupAllSounds();
     this.resetWorld();
     this.energyBar.setPercentage(25);
