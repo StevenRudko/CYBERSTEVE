@@ -6,7 +6,7 @@ Welcome to **CYBERSTEVE**, an action-packed **2D shooter** where you battle dead
 
 ![image](https://github.com/user-attachments/assets/cf3fe56f-816b-4b8e-b5f7-2aa40581c08d)  
 
-![image](https://github.com/user-attachments/assets/f05a3304-379f-4a79-be23-921691e2da41)  
+![image](https://github.com/user-attachments/assets/3e92925b-e8be-4669-921b-dcd19f71bbe1)
 
 ## 🎮 Keyboard Controls  
 
