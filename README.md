@@ -36,4 +36,4 @@ If you want to run the game locally:
 
 1. Clone the repository from GitHub:  
    ```sh
-   git clone https://github.com/yourusername/cybersteve.git
+   git clone https://github.com/StevenRudko/cybersteve.git
