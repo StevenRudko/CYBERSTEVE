@@ -5,7 +5,7 @@ class EnemyProjectile extends MovableObject {
   moveInterval;
 
   constructor(x, y, targetX, targetY) {
-    super().loadImage("./img/Enemies/3/Projectile.png");
+    super().loadImage("../CYBERSTEVE/img/Enemies/3/Projectile.png");
     this.x = x;
     this.y = y;
     this.targetX = targetX;

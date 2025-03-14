@@ -54,40 +54,40 @@ class Character extends MovableObject {
    * @type {string[]}
    */
   IMAGES_IDLE = [
-    "./img/Charakters/1%20Biker/Biker_idle/1.png",
-    "./img/Charakters/1%20Biker/Biker_idle/2.png",
-    "./img/Charakters/1%20Biker/Biker_idle/3.png",
-    "./img/Charakters/1%20Biker/Biker_idle/4.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/1.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/2.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/3.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_idle/4.png",
   ];
 
   IMAGES_WALKING = [
-    "./img/Charakters/1%20Biker/Biker_run/1.png",
-    "./img/Charakters/1%20Biker/Biker_run/2.png",
-    "./img/Charakters/1%20Biker/Biker_run/3.png",
-    "./img/Charakters/1%20Biker/Biker_run/4.png",
-    "./img/Charakters/1%20Biker/Biker_run/5.png",
-    "./img/Charakters/1%20Biker/Biker_run/6.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/1.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/2.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/3.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/4.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/5.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_run/6.png",
   ];
 
   IMAGES_JUMPING = [
-    "./img/Charakters/1%20Biker/Biker_jump/1.png",
-    "./img/Charakters/1%20Biker/Biker_jump/2.png",
-    "./img/Charakters/1%20Biker/Biker_jump/3.png",
-    "./img/Charakters/1%20Biker/Biker_jump/4.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/1.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/2.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/3.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_jump/4.png",
   ];
 
   IMAGES_DEAD = [
-    "./img/Charakters/1%20Biker/Biker_death/1.png",
-    "./img/Charakters/1%20Biker/Biker_death/2.png",
-    "./img/Charakters/1%20Biker/Biker_death/3.png",
-    "./img/Charakters/1%20Biker/Biker_death/4.png",
-    "./img/Charakters/1%20Biker/Biker_death/5.png",
-    "./img/Charakters/1%20Biker/Biker_death/6.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/1.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/2.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/3.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/4.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/5.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_death/6.png",
   ];
 
   IMAGES_HURT = [
-    "./img/Charakters/1%20Biker/Biker_hurt/1.png",
-    "./img/Charakters/1%20Biker/Biker_hurt/2.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_hurt/1.png",
+    "../CYBERSTEVE/img/Charakters/1%20Biker/Biker_hurt/2.png",
   ];
 
   world;

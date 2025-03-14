@@ -21,7 +21,7 @@ body {
   position: fixed;
   color: white;
   text-shadow: 20px 0px 20px rgba(0, 0, 0, 1);
-  cursor: url("./img/GUI/8 Cursors/1.png"), auto;
+  cursor: url("../CYBERSTEVE/img/GUI/8 Cursors/1.png"), auto;
 }
 
 video#background-video {

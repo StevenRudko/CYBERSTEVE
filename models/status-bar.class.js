@@ -4,10 +4,10 @@ class StatusBar extends DrawableObject {
    * @type {string[]}
    */
   HEALTH_FULL_IMAGES = [
-    "./img/GUI/2 Bars/HealthBar1.png",
-    "./img/GUI/2 Bars/HealthBar2.png",
-    "./img/GUI/2 Bars/HealthBar3.png",
-    "./img/GUI/2 Bars/HealthBar4.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar1.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar2.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar3.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar4.png",
   ];
 
   /**
@@ -15,10 +15,10 @@ class StatusBar extends DrawableObject {
    * @type {string[]}
    */
   HEALTH_DAMAGED_IMAGES = [
-    "./img/GUI/2 Bars/HealthBar5.png",
-    "./img/GUI/2 Bars/HealthBar6.png",
-    "./img/GUI/2 Bars/HealthBar7.png",
-    "./img/GUI/2 Bars/HealthBar8.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar5.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar6.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar7.png",
+    "../CYBERSTEVE/img/GUI/2 Bars/HealthBar8.png",
   ];
 
   /**

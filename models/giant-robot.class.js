@@ -11,23 +11,26 @@ class Enemy1 extends MovableObject {
   hasPlayedHitSound = false;
 
   IMAGES_WALKING = [
-    "./img/Enemies/2/Walk/1.png",
-    "./img/Enemies/2/Walk/2.png",
-    "./img/Enemies/2/Walk/3.png",
-    "./img/Enemies/2/Walk/4.png",
-    "./img/Enemies/2/Walk/5.png",
-    "./img/Enemies/2/Walk/6.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/1.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/2.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/3.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/4.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/5.png",
+    "../CYBERSTEVE/img/Enemies/2/Walk/6.png",
   ];
 
-  IMAGES_HURT = ["./img/Enemies/2/Hurt/1.png", "./img/Enemies/2/Hurt/2.png"];
+  IMAGES_HURT = [
+    "../CYBERSTEVE/img/Enemies/2/Hurt/1.png",
+    "../CYBERSTEVE/img/Enemies/2/Hurt/2.png",
+  ];
 
   IMAGES_DEAD = [
-    "./img/Enemies/2/Death/1.png",
-    "./img/Enemies/2/Death/2.png",
-    "./img/Enemies/2/Death/3.png",
-    "./img/Enemies/2/Death/4.png",
-    "./img/Enemies/2/Death/5.png",
-    "./img/Enemies/2/Death/6.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/1.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/2.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/3.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/4.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/5.png",
+    "../CYBERSTEVE/img/Enemies/2/Death/6.png",
   ];
 
   currentDeathFrame = 0;
@@ -38,7 +41,7 @@ class Enemy1 extends MovableObject {
    * Initializes the enemy's image, position, and movement speed.
    */
   constructor() {
-    super().loadImage("./img/Enemies/2/Idle/1.png");
+    super().loadImage("../CYBERSTEVE/img/Enemies/2/Idle/1.png");
     this.loadImages(this.IMAGES_WALKING);
     this.loadImages(this.IMAGES_HURT);
     this.loadImages(this.IMAGES_DEAD);
