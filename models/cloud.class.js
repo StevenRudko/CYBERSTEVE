@@ -17,7 +17,7 @@ class Cloud extends MovableObject {
    * Initializes the cloud position and starts animation.
    */
   constructor() {
-    super().loadImage("../CYBERSTEVE/img/Background/city 1/3.png");
+    super().loadImage("./img/Background/city 1/3.png");
     this.x = Math.random() * 300;
     this.animate();
   }

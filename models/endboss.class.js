@@ -26,24 +26,21 @@ class Endboss extends MovableObject {
   engineSound = new Audio("./audio/engine-sound.mp3");
 
   IMAGES_WALKING = [
-    "../CYBERSTEVE/img/Enemies/1/Walk/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/2.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/3.png",
-    "../CYBERSTEVE/img/Enemies/1/Walk/4.png",
+    "./img/Enemies/1/Walk/1.png",
+    "./img/Enemies/1/Walk/2.png",
+    "./img/Enemies/1/Walk/3.png",
+    "./img/Enemies/1/Walk/4.png",
   ];
 
-  IMAGES_HURT = [
-    "../CYBERSTEVE/img/Enemies/1/Hurt/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Hurt/2.png",
-  ];
+  IMAGES_HURT = ["./img/Enemies/1/Hurt/1.png", "./img/Enemies/1/Hurt/2.png"];
 
   IMAGES_DEAD = [
-    "../CYBERSTEVE/img/Enemies/1/Death/1.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/2.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/3.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/4.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/5.png",
-    "../CYBERSTEVE/img/Enemies/1/Death/6.png",
+    "./img/Enemies/1/Death/1.png",
+    "./img/Enemies/1/Death/2.png",
+    "./img/Enemies/1/Death/3.png",
+    "./img/Enemies/1/Death/4.png",
+    "./img/Enemies/1/Death/5.png",
+    "./img/Enemies/1/Death/6.png",
   ];
 
   /**

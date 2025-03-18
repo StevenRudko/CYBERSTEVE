@@ -497,6 +497,17 @@ function init() {
   if (!world) {
     world = new World(canvas, keyboard);
   }
+  if (typeof patchDrawableObject === "function") {
+    patchDrawableObject();
+  }
+}
+
+/**
+ * Modifies the existing hideLoadingScreen function to check image cache status
+ * @returns {boolean} True if all essential resources are loaded
+ */
+function isResourceLoaded() {
+  return Object.keys(totalImageCache).length > 0 || !window.totalImageCache;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -596,14 +607,20 @@ function initializeMobileControls() {
 }
 
 /**
- * Main game start coordinator
+ * Handles game start by setting up the UI and initializing the game
  */
 function startGame() {
   setupGameUI();
   initializeGameAudio();
   initializeMobileControls();
   gameStarted = true;
-  init();
+
+  if (isResourceLoaded()) {
+    init();
+  } else {
+    console.warn("Starting game before resources fully loaded");
+    init();
+  }
 }
 
 /**

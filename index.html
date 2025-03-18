@@ -11,7 +11,11 @@
     <meta http-equiv="Content-Type" content="text/javascript">
     <title>CYBERSTEVE</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="../CYBERSTEVE/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
+    <!-- Image Cache System -->
+    <script src="./js/imageCacheData.js"></script>
+    <script src="./js/imageCache.js"></script>
 
     <script src="./models/drawable-object.js"></script>
     <script src="./models/movable-object.class.js"></script>
@@ -100,6 +104,11 @@
 
     <canvas id="canvas" width="720" height="480" style="display: none;"></canvas>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', async function () {
+            await initImageCache();
+        });
+    </script>
 </body>
 
 </html>

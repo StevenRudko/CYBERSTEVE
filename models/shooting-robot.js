@@ -18,12 +18,12 @@ class Enemy2 extends MovableObject {
    * @type {Array<string>}
    */
   IMAGES_WALKING = [
-    "../CYBERSTEVE/img/Enemies/3/Walk/1.png",
-    "../CYBERSTEVE/img/Enemies/3/Walk/2.png",
-    "../CYBERSTEVE/img/Enemies/3/Walk/3.png",
-    "../CYBERSTEVE/img/Enemies/3/Walk/4.png",
-    "../CYBERSTEVE/img/Enemies/3/Walk/5.png",
-    "../CYBERSTEVE/img/Enemies/3/Walk/6.png",
+    "./img/Enemies/3/Walk/1.png",
+    "./img/Enemies/3/Walk/2.png",
+    "./img/Enemies/3/Walk/3.png",
+    "./img/Enemies/3/Walk/4.png",
+    "./img/Enemies/3/Walk/5.png",
+    "./img/Enemies/3/Walk/6.png",
   ];
 
   /**
@@ -31,34 +31,31 @@ class Enemy2 extends MovableObject {
    * @type {Array<string>}
    */
   IMAGES_ATTACK = [
-    "../CYBERSTEVE/img/Enemies/3/Attack/1.png",
-    "../CYBERSTEVE/img/Enemies/3/Attack/2.png",
-    "../CYBERSTEVE/img/Enemies/3/Attack/3.png",
-    "../CYBERSTEVE/img/Enemies/3/Attack/4.png",
-    "../CYBERSTEVE/img/Enemies/3/Attack/5.png",
-    "../CYBERSTEVE/img/Enemies/3/Attack/6.png",
+    "./img/Enemies/3/Attack/1.png",
+    "./img/Enemies/3/Attack/2.png",
+    "./img/Enemies/3/Attack/3.png",
+    "./img/Enemies/3/Attack/4.png",
+    "./img/Enemies/3/Attack/5.png",
+    "./img/Enemies/3/Attack/6.png",
   ];
 
   /**
    * Array of hurt animation images for the enemy.
    * @type {Array<string>}
    */
-  IMAGES_HURT = [
-    "../CYBERSTEVE/img/Enemies/3/Hurt/1.png",
-    "../CYBERSTEVE/img/Enemies/3/Hurt/2.png",
-  ];
+  IMAGES_HURT = ["./img/Enemies/3/Hurt/1.png", "./img/Enemies/3/Hurt/2.png"];
 
   /**
    * Array of death animation images for the enemy.
    * @type {Array<string>}
    */
   IMAGES_DEAD = [
-    "../CYBERSTEVE/img/Enemies/3/Death/1.png",
-    "../CYBERSTEVE/img/Enemies/3/Death/2.png",
-    "../CYBERSTEVE/img/Enemies/3/Death/3.png",
-    "../CYBERSTEVE/img/Enemies/3/Death/4.png",
-    "../CYBERSTEVE/img/Enemies/3/Death/5.png",
-    "../CYBERSTEVE/img/Enemies/3/Death/6.png",
+    "./img/Enemies/3/Death/1.png",
+    "./img/Enemies/3/Death/2.png",
+    "./img/Enemies/3/Death/3.png",
+    "./img/Enemies/3/Death/4.png",
+    "./img/Enemies/3/Death/5.png",
+    "./img/Enemies/3/Death/6.png",
   ];
 
   /**
@@ -77,7 +74,7 @@ class Enemy2 extends MovableObject {
    * Initializes the enemy, setting initial position and loading animations.
    */
   constructor() {
-    super().loadImage("../CYBERSTEVE/img/Enemies/2/Idle/1.png");
+    super().loadImage("./img/Enemies/2/Idle/1.png");
     this.loadImages(this.IMAGES_WALKING);
     this.loadImages(this.IMAGES_ATTACK);
     this.loadImages(this.IMAGES_HURT);

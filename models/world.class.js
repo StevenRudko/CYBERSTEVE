@@ -43,7 +43,7 @@ class World {
     this.canvas = canvas;
     this.keyboard = keyboard;
     this.ctx = canvas.getContext("2d");
-    this.hitmarkerImage.src = "../CYBERSTEVE/img/hitmarker.png";
+    this.hitmarkerImage.src = "./img/hitmarker.png";
     this.setupAllSounds();
     this.resetWorld();
     this.energyBar.setPercentage(25);

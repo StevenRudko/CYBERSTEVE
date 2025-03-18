@@ -20,7 +20,7 @@ class Crystal extends MovableObject {
    */
   constructor(x, y) {
     super();
-    this.loadImage("../CYBERSTEVE/img/Crystals/4.png");
+    this.loadImage("./img/Crystals/4.png");
     this.x = x;
     this.y = y;
   }

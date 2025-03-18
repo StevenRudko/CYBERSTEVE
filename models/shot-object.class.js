@@ -11,7 +11,7 @@ class ShotObject extends MovableObject {
    * @param {boolean} otherDirection - The direction in which the shot is fired (true for left, false for right).
    */
   constructor(x, y, otherDirection) {
-    super().loadImage("../CYBERSTEVE/img/Weapons/5 Bullets/5.png");
+    super().loadImage("./img/Weapons/5 Bullets/5.png");
     this.height = 10;
     this.width = 30;
     this.otherDirection = otherDirection;

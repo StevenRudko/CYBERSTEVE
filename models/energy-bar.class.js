@@ -7,20 +7,20 @@ class EnergyBar extends DrawableObject {
    * Array of image paths representing the full energy bar.
    */
   ENERGY_FULL_IMAGES = [
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar1.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar2.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar3.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar4.png",
+    "./img/GUI/2 Bars/EnergyBar1.png",
+    "./img/GUI/2 Bars/EnergyBar2.png",
+    "./img/GUI/2 Bars/EnergyBar3.png",
+    "./img/GUI/2 Bars/EnergyBar4.png",
   ];
 
   /**
    * Array of image paths representing the damaged energy bar.
    */
   ENERGY_DAMAGED_IMAGES = [
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar5.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar6.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar7.png",
-    "../CYBERSTEVE/img/GUI/2 Bars/EnergyBar8.png",
+    "./img/GUI/2 Bars/EnergyBar5.png",
+    "./img/GUI/2 Bars/EnergyBar6.png",
+    "./img/GUI/2 Bars/EnergyBar7.png",
+    "./img/GUI/2 Bars/EnergyBar8.png",
   ];
 
   percentage = 25;
